@@ -4,7 +4,7 @@ header {
 }
 
 .cabecalho-imagem{
-    width: 20%;
+    width: 10%;
 }
 
 .cabecalho {
@@ -51,8 +51,12 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 .estudante-todos{
-    display: grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;
+display: flex;
+padding-right: 10vw;
+justify-content:space-between ;
+}
+.estudante-todos h3{
+    width: 20rem;
 }   
 .estudante-l{
     display: grid;
@@ -64,9 +68,7 @@ body {
     padding: 24px 0;
 }
 .estudante-nome{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
     padding: 24px 0;
 }
 .rodape{
